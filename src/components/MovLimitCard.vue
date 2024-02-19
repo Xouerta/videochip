@@ -64,8 +64,8 @@ export default {
       const store = useStore()  // 该方法用于返回store 实例
       const type_id_names = {
         1: "电影",
-        2: "电视剧",
-        3: "综艺",
+        2: "图文",
+        3: "视频",
         4: "动漫",
         5: "咨询"
     }

@@ -1,7 +1,7 @@
 <template>  
   <div class="collect-card">
     <el-row style="margin: 15px 0 0 0">
-        <span class="collect-card-type">我的收藏</span>
+        <span class="collect-card-type">个人空间-我的收藏</span>
     </el-row>
     
    <el-row alignment="flex-start" 

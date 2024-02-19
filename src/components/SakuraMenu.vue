@@ -10,11 +10,11 @@
     :ellipsis="true"
     @select="handleSelect"
   >
-    <el-menu-item index="/" style="font-size:larger; color:#409EFF; ">Avalon</el-menu-item>
-    <el-menu-item index="/movtype/4">动漫</el-menu-item>
+    <el-menu-item index="/" style="font-size:larger; color:#409EFF; ">Videosrc</el-menu-item>
+    <el-menu-item index="/movtype/4">视频</el-menu-item>
     <el-menu-item index="/movtype/1">电影</el-menu-item>
-    <el-menu-item index="/movtype/2">电视剧</el-menu-item>
-    <el-menu-item index="/movtype/3">综艺</el-menu-item>
+    <el-menu-item index="/movtype/2">图文</el-menu-item>
+    <el-menu-item index="/movtype/3">社区</el-menu-item>
     <!-- <el-menu-item index="/movtype/5">社区</el-menu-item> -->
     <div class="menu-input">
       <el-input
