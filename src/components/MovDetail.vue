@@ -356,7 +356,7 @@ p.des-content {
 }
 
 .el-button.vod-play-url.active {
-  background-color: rgb(36, 184, 242);
+  background-color: rgb(55,99,20);
   color: white;
   border-radius: 4px;
 }
@@ -365,3 +365,5 @@ p.des-content {
     padding: 0;
 } */
 </style>
+
+

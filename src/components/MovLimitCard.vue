@@ -137,6 +137,6 @@ span.home-card-type {
 }
 
 a.home-card-type:hover {
-    color:rgb(36, 184, 242) !important;
+    color: rgb(88, 229, 154) !important;
 }
 </style>

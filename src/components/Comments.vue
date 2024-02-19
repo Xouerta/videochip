@@ -8,7 +8,7 @@
                  style="width: 100%;"
                  label-width="100px">
             <el-form-item label="评论">
-                <el-input v-model="commentForm.body" placeholder="请输入评论" type="textarea" :rows="4"/>
+                <el-input v-model="commentForm.body" placeholder="请输入评论，良言结善缘，恶语伤人心" type="textarea" :rows="4"/>
             </el-form-item>
             <el-form-item style="float:left;">
                 <el-button type="primary" @click="publishComment">发表</el-button>
