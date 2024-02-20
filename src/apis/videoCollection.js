@@ -5,7 +5,7 @@ import httpRequest from '../request/index'
 // 获取视频收藏信息
 export  function showCollectVideo(param) {
     return httpRequest({
-		url: '/collection/show',
+		url: '/like/media',
 		method: 'get',
 		params: param,
 	})
@@ -15,7 +15,7 @@ export  function showCollectVideo(param) {
 // 添加视频收藏
 export  function addCollectVideo(param) {
     return httpRequest({
-		url: '/collection/add',
+		url: '/like/media',
 		method: 'get',
 		params: param,
 	})
@@ -24,7 +24,7 @@ export  function addCollectVideo(param) {
 // 删除视频收藏
 export  function removeCollectVideo(param) {
     return httpRequest({
-		url: '/collection/remove',
+		url: '/like/media',
 		method: 'get',
 		params: param,
 	})
@@ -34,7 +34,7 @@ export  function removeCollectVideo(param) {
 // 该视频是否已被收藏
 export function isCollectVideo(param) {
     return httpRequest({
-		url: '/collection/is_collection',
+		url: '/like/media',
 		method: 'get',
 		params: param,
 	})
